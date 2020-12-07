@@ -1,0 +1,32 @@
+p {
+    text-align: center;
+    font-size: 200px;
+}
+
+html {
+    background-color: black;
+}
+
+.container {
+    position: relative;
+  }
+  
+  #image {
+    position: absolute;
+  }
+  
+  #texto {
+    position: absolute;
+    color: black;
+    font-size: 100px;
+    left: 100px;
+    top: 125px;
+  }
+
+  #texto1 {
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    left: 160px;
+    top: 260px;
+  }

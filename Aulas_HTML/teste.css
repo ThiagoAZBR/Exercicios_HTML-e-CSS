@@ -1,0 +1,53 @@
+/*
+######################################################################################################################
+                                - Design da Home Page (teste.html) -
+######################################################################################################################
+*/
+
+/* Muda o Fundo para Preto */
+html {
+    background-color: black;
+}
+
+
+/* Design e Posicionamentos do título */
+
+h1 {
+    font-family: Copperplate Gothic;
+    color: aliceblue;
+    margin: 50;
+    text-align: center;
+  }
+
+
+
+
+/* Aqui é o posicionamento das imagens */
+.container {
+
+    margin: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+img {
+    display: block;
+    text-align: center;
+  }
+
+
+/* Aqui é onde se aplica o efeito de quando passar o mouse ele girar */
+img {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+img:hover {
+      -webkit-transform: rotateZ(360deg);
+      transform: rotateZ(360deg);
+  }
+
+
+  

@@ -1,0 +1,244 @@
+/*
+
+##################################################################################################################
+Aqui é onde vai ficar a edição dos códigos dos arquivos 'destino' e as cidades/lugares 'cairo', 'paris', 'salar' 
+##################################################################################################################
+*/
+
+
+.container_2 {
+
+    position: relative;
+
+}
+
+/* Mudando a cor de fundo das páginas para preto */
+html {
+    background-color: black;
+}
+
+
+
+
+/* Aqui é onde edita o fundo das páginas dos arquivos 'destino' */
+#imagem {
+
+
+    position: absolute;
+
+}
+
+
+/* Daqui Até o '#paris' é a edição de posicionamento das imagens das cidades/locais 'paris', 'cairo', 'salar', para ficar na localização 'x,y' certa*/
+#piramide {
+
+    position: absolute; /* O absolute serve para designar que o posicionamento vai ser por left, top (x,y) */
+    left: 680px;
+    top: 200px;
+
+}
+
+#cairo_image {
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+#salar {
+
+    position: absolute;
+    left: 680px;
+    top: 200px;
+
+}
+
+#lapaz {
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+#museu {
+
+    position: absolute;
+    left: 680px;
+    top: 200px;
+
+}
+
+#paris {
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+/*
+                                        - Setas A Seguir -
+
+###########################################################################################################
+ Aqui na 'seta' e 'seta:hover' é para aplicar o efeito de quando passar o mouse em cima
+   ###########################################################################################################
+*/
+
+#seta {
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#seta:hover {
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+/*
+o '#texto' é o posicionamento da seta que aponta à direita
+*/
+
+#texto {
+    position: absolute;
+    left: 1160px;
+    top: 448px;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+/* ###########################################################################################################
+ Aqui na 'seta_esq' e 'seta_esq:hover' é para aplicar o efeito de quando passar o mouse em cima
+   ###########################################################################################################
+*/
+
+#seta_esq {
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#seta_esq:hover {
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+/*
+A '#seta_esq' é o posicionamento da seta que aponta à esquerda
+*/
+#seta_esq {
+    
+    position: absolute;
+    left: 30px;
+    top: 448px;
+
+}
+
+
+
+/*  ------------------------------------------TEXTOS A SEGUIR--------------------------------------------------------*/
+
+
+/* Aqui São Os designs e posicionamentos dos títulos. Os nomes dos países onde ficam as cidades/locais 'paris', 'cairo', 'salar' */
+
+#titulo_1 {
+
+    position: absolute;
+    font-size: 60px;
+    left: 550px;
+    top: 60px;
+    opacity: 0.5;
+
+}
+
+#titulo_2 {
+
+    position: absolute;
+    font-size: 60px;
+    left: 100px;
+    top: 20px;
+    opacity: 0.5;
+
+}
+
+#titulo_3 {
+
+    position: absolute;
+    font-size: 60px;
+    left: 520px;
+    top: 190px;
+    opacity: 0.5;
+
+}
+
+
+
+/* Para baixo são os designs e posicionamentos dos textos dos locais quais as imagens são */
+
+#cairo_1 {
+
+    position: absolute;
+    left: 700px;
+    top: 210px;
+    color: black;
+    font-size: 50px;
+
+}
+
+#cairo_2 {
+
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: black;
+    font-size: 50px;
+
+}
+#salar_1 {
+
+    position: absolute;
+    left: 700px;
+    top: 210px;
+    color: black;
+    font-size: 35px;
+
+}
+
+#salar_2 {
+
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: black;
+    font-size: 35px;
+
+}
+
+#paris_1 {
+
+    position: absolute;
+    left: 700px;
+    top: 210px;
+    color: black;
+    font-size: 35px;
+
+}
+
+#paris_2 {
+
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: black;
+    font-size: 35px;
+
+}
