@@ -1,0 +1,98 @@
+/*
+######################################################################################################################
+
+                        - Para a Personalização dos Arquivos de coisas a levar e tabelas -
+
+######################################################################################################################
+*/
+
+.container_2 {
+
+    position: relative;
+
+}
+
+/* Mudando a cor de fundo das páginas para preto */
+html {
+    background-color: black;
+}
+
+/* ###################################### - I M A G E N S - ###########################################################
+
+/* Design para a seta que leva à página anterior */
+#seta_esq {
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#seta_esq:hover {
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+/*
+A '#seta_esq' é o posicionamento da seta que aponta à esquerda
+*/
+#seta_esq {
+    
+    position: absolute;
+    left: 30px;
+    top: 450px;
+
+}
+
+#fundo_itens_cairo {
+
+    opacity: 0.85;
+
+}
+
+/* Design para a seta que leva De volta a págoma principal */
+#seta_a_levar {
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#seta_a_levar:hover {
+
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+#seta_a_levar {
+
+    position: absolute;
+    top: 5px;
+    left: 1160px;
+
+}
+
+/* ##################################### - Textos Abaixo - ############################################################
+*/
+
+#texto_1, #texto_2 {
+
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+}
+#texto_3 {
+
+    color: white;
+    
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+}

@@ -1,0 +1,285 @@
+/* ###########################  Arquivo CSS para O Site 'Missão Impossível' #################################
+ps: Sem o Tom Cruise
+############################################################################################################# */
+
+/* Para Poder ter objetos em cima de outros objetos */
+
+.container {
+
+    position: relative;
+
+}
+
+html {
+
+    background-color: white;
+
+}
+
+
+/* Para não ficar o branco ao redor do site */
+
+body {
+
+    margin: 0;
+}
+
+
+/* Estilizando para o efeito não ficar feio, e preencher uma área maior */
+
+#titulo_1 {
+
+    font-size: 30px;
+    padding: 8px;
+
+}
+
+
+/* Efeito que para ativar tem que Passar o Mouse em cima. */
+#titulo_1:hover {
+
+    opacity: 0.5;
+
+}
+
+/* Aqui é onde está sendo arrumado a barra do topo */
+
+.barra_topo {
+
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.logo {
+
+    align-items: center;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: flex-start;
+
+}
+
+
+.resto {
+    
+    align-items: center;
+    font-size: 30px;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: space-evenly;
+
+}
+
+
+/* Efeito para ativar quando passar o mouse em cima */
+
+#efeito_texto_topo {
+
+    padding: 8px;
+
+}
+
+
+
+#efeito_texto_topo:hover {
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.5;
+
+}
+
+
+/* Posicionamentos */
+
+#subtitulo_1 {
+
+    color: white;
+    position: absolute;
+    left: 35px;
+    top: 220px;
+
+}
+
+#autor {
+
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 165px;
+    top: 615px;
+
+}
+
+
+#texto_1 {
+
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 35px;
+    top: 300px;
+
+}
+
+#subtitulo_2 {
+
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 1005px;
+    top: 830px;
+
+}
+
+/* ####################################################################################################################
+                                        - I M A G E N S -
+   ####################################################################################################################
+*/
+
+
+/* Para Separa o título do ícone */
+
+#icone {
+
+    margin-right: 8px;
+
+}
+
+
+/* Efeito Para o Ícone crescer quando passar o mouse*/
+#icone:hover {
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+/* Posicionamentos */
+
+#fundo_1 {
+    
+    position: absolute;
+    top: 180px;
+    z-index: -1;
+
+}
+
+
+#circulo_1 {
+
+    position: absolute;
+    top: 940px;
+    left: 1130px;
+
+}
+#circulo_2 {
+
+    position: absolute;
+    top: 1030px;
+    left: 1130px;
+
+}
+#circulo_3 {
+
+    position: absolute;
+    top: 1120px;
+    left: 1130px;
+
+}
+
+
+/* Efeito De Passar o Mouse, o circulo será expandido */
+
+#circulo_1:hover {
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+#circulo_2:hover {
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+
+#circulo_3:hover {
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+
+/* Aqui é para colocar o fundo preto no meio */
+
+#fundo_artistas {
+
+    display: block;
+    position: absolute;
+    top: 738px;
+    left: 0;
+    height: 620px;
+    z-index: -10;
+    width: 100%;
+    background-color: black;
+
+}
+
+
+/* Posicionamentos */
+
+/*  z-INDEX padrão do Machado é 1 */
+#machado {
+    
+    position: absolute;
+    top: 805px;
+    left: 0px;
+
+}
+
+/*  O Z-INDEX padrão da Clarice é 2 */
+#clarice {
+
+    position: absolute;
+    top: 805px;
+    left: 0px;
+    z-index: 4;
+
+}
+
+/*  O Z-INDEX padrão do Amado é 3 */
+#amado {
+
+    position: absolute;
+    top: 805px;
+    left: 0px;
+
+
+}
+
+#fundo_2 {
+
+    position: absolute;
+    top: 1420px;
+    left: 540px;
+
+}

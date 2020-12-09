@@ -95,8 +95,8 @@ html {
 
 #seta:hover {
 
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 
 }
 
@@ -110,6 +110,29 @@ o '#texto' é o posicionamento da seta que aponta à direita
     top: 448px;
     font-size: 32px;
     text-align: center;
+
+}
+
+/* Design para a seta que leva aos itens */
+#seta_a_levar {
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#seta_a_levar:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+#seta_a_levar {
+
+    position: absolute;
+    top: 13px;
+    left: 1160px;
 
 }
 
