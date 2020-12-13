@@ -52,27 +52,50 @@
         <img id = 'circulo_2' src = '../All_images/circle golden.png' height = '50px' width = '50px'>
         <img id = 'circulo_3' src = '../All_images/circle golden.png' height = '50px' width = '50px'>
 
+
         <!--    Aqui São As Imagens de Fundo        -->
         <img id = 'fundo_1' src = "../All_images/mkt_wallpaper.jpg" height = "500px" width = '100%' >
         <img id = 'fundo_2' src = "../All_images/fundo_2.webp" height = '500px' width = "60%" >
 
-<!-- #######################################################################################################
-
-                                    - T E N T A T I V A  4 -
-
-     #######################################################################################################
--->
-
-
         
-        <!--Fotos De Fundo da Escritora Clarice Linspector, e os escritores Machado De Assis E Jorge Amado-->
-        <img id = 'machado' src = "../All_images/machado_de_assis.jpg" width = '70%' height = '480px'>
-        <img id = 'clarice' src = "../All_images/clarice_linspectot.jpg" width = '70%' height = '480px'>
-        <img id = 'amado' src = "../All_images/jorge_amado.jpg" width = '70%' height = '480px'>
-        
+        <!-- Fotos De Fundo da Escritora Clarice Linspector, e os escritores Machado De Assis E Jorge Amado, Aqui Vai Rolar Uma Transição de Imagens -->
+
+        <div class = "artistes">
+        <img class = 'selected' src = "https://exame.com/wp-content/uploads/2020/06/machado-de-assis-e1591391775594.jpg?resize=1024,683" width = '70%' height = '480px'>
+        <img src = "https://static.todamateria.com.br/upload/vi/da/vida-e-obra-de-clarice-lispector-og.jpg" width = '70%' height = '480px'>
+        <img src = "https://aloalobahia.com/images/p/jorgeamado_alo_alo_bahia.jpg" width = '70%' height = '480px'>
+        </div>
+
         <!-- Serve Para Colocar o Fundo Atrás Das Imagens-->
         <div id = 'fundo_artistas'></div>
 
+        <!-- Onde Vai Ficar A Área de Mandar Mensagem -->
+        <div class = 'contato'>
+            <label id = 'subtitulo_3'> - Deixe Seu Comentário -</label>
+            <input id = "remetente" type = "text" placeholder = "Remetente">
+            <textarea id = 'mensagem' placeholder = "Crítica Construtiva/Observação"></textarea>
+            <input id = 'botao_falso' type = "submit" value = "Remeter">
+
+        </div>
+        <div id = 'fundo_contato'></div>
+        <div id = 'fundo_contato_2'></div>
+        <div id = 'fundo_contato_3'></div>
+
     </div>
+
+    <script src = 'script_home.js'></script>
+
+
+<!-- #######################################################################################################
+
+            ->  Faltou Colocar Uma Opção de Clicar no círculo e a imagem aparecer
+            ->  Faltou Fazer Um Submit Certinho da Parte de Contatar
+            ->  Faltou fazer a responsividade
+            
+#######################################################################################################
+-->
+
+    
+
 </body>
 </html>

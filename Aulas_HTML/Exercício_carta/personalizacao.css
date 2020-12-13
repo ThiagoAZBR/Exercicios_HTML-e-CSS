@@ -1,0 +1,178 @@
+/*      Arquivo Para Personalizar o Card  */
+
+/* Div que engloba tudo */
+
+.perimetro {
+
+    margin: 0 auto;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 400px;
+    height: 600px;
+    border: 5px solid goldenrod;
+    background-color: black;
+}
+
+
+/*  Posicionamento e Estilização Da Imagem  */
+.perimetro #slifer {
+
+    border: 1px solid goldenrod;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+
+}
+
+/*  Posicionamento e Estilização Do Nome Da Carta  */
+.perimetro #titulo_1 {
+
+    border: 1px solid goldenrod;
+    border-radius: 5%;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: -5px;
+    width: 330px;
+    color: goldenrod;
+
+}
+
+/*  Posicionamento Do ícone De luz  */
+#luz {
+
+    position: absolute;
+    left: 340px;
+    top: 23px;
+
+}
+
+
+
+/*   posicionamento das estrelas, o nivel da carta */
+#star_1 {
+
+    position: absolute;
+    left: 125px;
+    top: 60px;
+
+}
+#star_2 {
+
+    position: absolute;
+    left: 150px;
+    top: 60px;
+
+}
+#star_3 {
+
+    position: absolute;
+    left: 175px;
+    top: 60px;
+
+}
+#star_4 {
+
+    position: absolute;
+    left: 200px;
+    top: 60px;
+
+}
+#star_5 {
+
+    position: absolute;
+    left: 225px;
+    top: 60px;
+
+}
+#star_6 {
+
+    position: absolute;
+    left: 250px;
+    top: 60px;
+
+}
+#star_7 {
+
+    position: absolute;
+    left: 275px;
+    top: 60px;
+
+}
+#star_8 {
+
+    position: absolute;
+    left: 300px;
+    top: 60px;
+
+}
+#star_9 {
+
+    position: absolute;
+    left: 325px;
+    top: 60px;
+
+}
+#star_10 {
+
+    position: absolute;
+    left: 350px;
+    top: 60px;
+
+}
+
+
+
+
+
+
+/* Posicionamento do Tipo Da Carta */
+#texto_1 {
+
+    position: absolute;
+    top: 395px;
+    left: 30px;
+    color: white;
+
+}
+
+/* Posicionamento E personalização da Descrição da Carta */
+#texto_2 {
+
+    position: absolute;
+    border: 1px solid goldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 342px;
+    top: 387px;
+    left: 20px;
+    text-align: justify;
+    color: white;
+
+}
+
+/* Linha Para Separar a Descrição do ATK e DEF */
+#linha {
+
+    border: 1px solid black;
+    height: 0px;
+    width: 90%;
+    position: absolute;
+    left: 21px;
+    top: 568px;
+
+}
+
+/* Posicionamento do Texto que contém o ATK e DEF da carta */
+#atq_def {
+
+    position: absolute;
+    top: 548px;
+    left: 240px;
+    font-size: 15px;
+    color: white;
+
+}

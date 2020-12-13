@@ -143,6 +143,78 @@ body {
 
 }
 
+/* Área De Edição Dos Inputs No 'Deixe Um Comentário' */
+
+#remetente {
+
+    height: 30px;
+    width: 400px;
+    position: absolute;
+    left: 65px;
+    top: 1530px;
+
+}
+
+#mensagem {
+    
+    width: 400px;
+    height: 107px;
+    position: absolute;
+    left: 65px;
+    top: 1589px;
+
+}
+
+#botao_falso {
+
+    color: black;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    left: 373px;
+    top: 1728px;
+
+}
+
+#subtitulo_3 {
+
+    font-size: 30px;
+    position: absolute;
+    left: 60px;
+    top: 1410px;
+
+}
+
+/*          Colocar O Efeito No Botão quando passar o mouse     */
+#botao_falso #remetente #mensagem{
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#botao_falso:hover {
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px, 10px, 5px rgba(0, 0, 0, .5));
+
+}
+
+#remetente:hover {
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px, 10px, 5px rgba(0, 0, 0, .5));
+
+}
+
+#mensagem:hover {
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px, 10px, 5px rgba(0, 0, 0, .5));
+
+}
+
 /* ####################################################################################################################
                                         - I M A G E N S -
    ####################################################################################################################
@@ -247,32 +319,28 @@ body {
 
 /* Posicionamentos */
 
-/*  z-INDEX padrão do Machado é 1 */
-#machado {
+/* Parte Onde Vai Se Posicionar As imagens que terão a transição (as imagens são do Machado De Assis, Clarice Linspector, Jorge Amado  */
+
+.artistes {
+
+    position: relative;
     
+}
+
+.artistes img{
+    
+    opacity: 0;
     position: absolute;
-    top: 805px;
+    top: 643px;
     left: 0px;
+
+    transition: opacity 800ms;
 
 }
 
-/*  O Z-INDEX padrão da Clarice é 2 */
-#clarice {
+.artistes img.selected {
 
-    position: absolute;
-    top: 805px;
-    left: 0px;
-    z-index: 4;
-
-}
-
-/*  O Z-INDEX padrão do Amado é 3 */
-#amado {
-
-    position: absolute;
-    top: 805px;
-    left: 0px;
-
+    opacity: 1;
 
 }
 
@@ -281,5 +349,45 @@ body {
     position: absolute;
     top: 1420px;
     left: 540px;
+
+}
+
+#fundo_contato {
+
+    display: block;
+    position: absolute;
+    top: 1475px;
+    left: 40px;
+    height: 155px;
+    z-index: -10;
+    width: 17%;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#fundo_contato_2 {
+
+    display: block;
+    position: absolute;
+    top: 1547px;
+    left: 151px;
+    height: 155px;
+    z-index: -11;
+    width: 17%;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#fundo_contato_3 {
+
+    display: block;
+    position: absolute;
+    top: 1657px;
+    left: 280px;
+    height: 155px;
+    z-index: -10;
+    width: 17%;
+    background-color: white;
+    border: 1px solid black;
 
 }
