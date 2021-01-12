@@ -1,0 +1,56 @@
+.global {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cabecalho {
+
+    margin-top: -30px;
+
+}
+
+.corpo {
+
+    width: 80%;
+
+}
+.corpo img{
+
+    position: absolute;
+    left: 350px;
+    margin-top: -5px;
+    width: 50%;
+    height: 70%;
+    opacity: 1;
+
+}
+
+.rodape{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 760px;
+    width: 100%;
+
+}
+
+.rodape img {
+
+    margin-top: 430px;
+    height: 100px;
+    width: 120px;
+    
+
+}
+
+.rodape img:hover {
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 200ms;
+
+}
