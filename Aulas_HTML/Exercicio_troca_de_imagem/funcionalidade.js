@@ -13,171 +13,98 @@ let principal_jose_de_alencar = document.querySelector('#principal_jose_de_alenc
 let luiz_gama = document.querySelector('#luiz_gama')
 let principal_luiz_gama = document.querySelector('#principal_luiz_gama')
 
+let images = document.querySelectorAll('.corpo img')
+let max = images.length
+let botao = document.querySelector('#botao_para_deixar_a_imagem_escurar')
+let escolhido = document.querySelector('.corpo img.escolhido')
+
+let div_vazia_para_escurecer_a_imagem = document.querySelector('.div_vazia_para_escurecer_a_tela')
 
 clarice_linspector.addEventListener('click', function() {
 
-    if (principal_clarice_linspector.style.opacity === '0' ) {
 
-        principal_clarice_linspector.style.opacity = '1'
+    for (var i = 0;; i++) {
+        console.log(i);
+        if (i >= max) break;
 
+        images[i].classList.remove('escolhido')
+        // more statements
     }
 
-    if (principal_jorge_amado.style.opacity === '1' ) {
-
-        principal_jorge_amado.style.opacity = '0'
-
-    }
-    if (principal_machado_de_assis.style.opacity === '1' ) {
-
-        principal_machado_de_assis.style.opacity = '0'
-
-    }
-    if (principal_jose_de_alencar.style.opacity === '1' ) {
-
-        principal_jose_de_alencar.style.opacity = '0'
-
-    }
-    if (principal_luiz_gama.style.opacity === '1' ) {
-
-        principal_luiz_gama.style.opacity = '0'
-
-    }
+    principal_clarice_linspector.classList.add('escolhido')
 
 
+})
 
-    });
-
-    
 jorge_amado.addEventListener('click', function() {
 
-    if (principal_clarice_linspector.style.opacity === '1' ) {
+    for(var i = 0;; i++) {
 
-        principal_clarice_linspector.style.opacity = '0'
+        console.log(i)
+        if (i >= max) break;
 
-    }
-
-    if (principal_jorge_amado.style.opacity === '0' ) {
-
-        principal_jorge_amado.style.opacity = '1'
-
-    }
-    if (principal_machado_de_assis.style.opacity === '1' ) {
-
-        principal_machado_de_assis.style.opacity = '0'
-
-    }
-    if (principal_jose_de_alencar.style.opacity === '1' ) {
-
-        principal_jose_de_alencar.style.opacity = '0'
-
-    }
-    if (principal_luiz_gama.style.opacity === '1' ) {
-
-        principal_luiz_gama.style.opacity = '0'
+        images[i].classList.remove('escolhido')
 
     }
 
+    principal_jorge_amado.classList.add('escolhido')
 
-
-    });
-
+})
 
 machado_de_assis.addEventListener('click', function() {
 
-    if (principal_clarice_linspector.style.opacity === '1' ) {
+    for ( var i = 0;; i++) {
 
-        principal_clarice_linspector.style.opacity = '0'
+        console.log(i)
+        if ( i >= max ) break;
 
-    }
-
-    if (principal_jorge_amado.style.opacity === '1' ) {
-
-        principal_jorge_amado.style.opacity = '0'
+        images[i].classList.remove('escolhido')
 
     }
-    if (principal_machado_de_assis.style.opacity === '0' ) {
+    
+    principal_machado_de_assis.classList.add('escolhido')
 
-        principal_machado_de_assis.style.opacity = '1'
-
-    }
-    if (principal_jose_de_alencar.style.opacity === '1' ) {
-
-        principal_jose_de_alencar.style.opacity = '0'
-
-    }
-    if (principal_luiz_gama.style.opacity === '1' ) {
-
-        principal_luiz_gama.style.opacity = '0'
-
-    }
-
-
-
-    });
-
+})
 
 jose_de_alencar.addEventListener('click', function() {
 
-    if (principal_clarice_linspector.style.opacity === '1' ) {
+    for ( var i = 0;; i++) {
 
-        principal_clarice_linspector.style.opacity = '0'
+        console.log(i)
+        if ( i >= max ) break;
 
-    }
-
-    if (principal_jorge_amado.style.opacity === '1' ) {
-
-        principal_jorge_amado.style.opacity = '0'
-
-    }
-    if (principal_machado_de_assis.style.opacity === '1' ) {
-
-        principal_machado_de_assis.style.opacity = '0'
-
-    }
-    if (principal_jose_de_alencar.style.opacity === '0' ) {
-
-        principal_jose_de_alencar.style.opacity = '1'
-
-    }
-    if (principal_luiz_gama.style.opacity === '1' ) {
-
-        principal_luiz_gama.style.opacity = '0'
+        images[i].classList.remove('escolhido')
 
     }
 
+    principal_jose_de_alencar.classList.add('escolhido')
 
-
-    });
+})
 
 luiz_gama.addEventListener('click', function() {
 
-    if (principal_clarice_linspector.style.opacity === '1' ) {
+    for ( var i = 0;; i++ ) {
 
-        principal_clarice_linspector.style.opacity = '0'
+        console.log(i)
+        if ( i >= max ) break;
 
-    }
-
-    if (principal_jorge_amado.style.opacity === '1' ) {
-
-        principal_jorge_amado.style.opacity = '0'
-
-    }
-    if (principal_machado_de_assis.style.opacity === '1' ) {
-
-        principal_machado_de_assis.style.opacity = '0'
-
-    }
-    if (principal_jose_de_alencar.style.opacity === '1' ) {
-
-        principal_jose_de_alencar.style.opacity = '0'
-
-    }
-    if (principal_luiz_gama.style.opacity === '0' ) {
-
-        principal_luiz_gama.style.opacity = '1'
+        images[i].classList.remove('escolhido')
 
     }
 
+    principal_luiz_gama.classList.add('escolhido')
 
+})
 
-    });
+botao.addEventListener('click', function() {
+
+    if (div_vazia_para_escurecer_a_imagem.style.display === 'block') {
+
+        div_vazia_para_escurecer_a_imagem.style.display = 'none';
+
+    } 
+    else {
+
+        div_vazia_para_escurecer_a_imagem.style.display = 'block'
+    }
+})

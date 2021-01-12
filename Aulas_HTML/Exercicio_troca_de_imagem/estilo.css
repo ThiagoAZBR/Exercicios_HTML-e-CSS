@@ -6,9 +6,16 @@
 
 }
 
+body {
+
+    margin: 0;
+
+}
+
 .cabecalho {
 
-    margin-top: -30px;
+    margin-top: -20px;
+    color: white;
 
 }
 
@@ -23,8 +30,9 @@
     left: 350px;
     margin-top: -5px;
     width: 50%;
-    height: 70%;
-    opacity: 1;
+    height: 73%;
+    opacity: 0;
+    top: 50px;
 
 }
 
@@ -39,7 +47,7 @@
 
 .rodape img {
 
-    margin-top: 430px;
+    margin-top: 445px;
     height: 100px;
     width: 120px;
     
@@ -52,5 +60,63 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: 200ms;
+
+}
+
+.corpo img.escolhido {
+
+    opacity: 1;
+
+}
+
+#botao_para_deixar_a_imagem_escurar {
+
+    position: absolute;
+    z-index: 10;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    opacity: 0.8;
+    left: 1033px;
+    top: 23px;
+    transition: all 1.5s;
+
+}
+
+#botao_para_deixar_a_imagem_escurar:hover {
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.div_vazia_para_escurecer_a_tela {
+
+    background-color: black;
+    height: 100px;
+    width: 50%;
+    height: 73%;
+    position: absolute;
+    left: 350px;
+    top: 45px;
+    z-index: 10;
+    opacity: 0.8;
+    display: none;
+
+}
+
+#fundo_literatura {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 
 }
