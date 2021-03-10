@@ -9,6 +9,8 @@
 body {
 
     margin: 0;
+    width: 1686px;
+    height: 100vh;
 
 }
 
@@ -40,8 +42,8 @@ body {
 
     display: flex;
     flex-direction: row;
-    margin-left: 760px;
-    width: 100%;
+    position: absolute;
+    bottom: 1vh;
 
 }
 
@@ -82,7 +84,7 @@ body {
     padding-right: 15px;
     text-align: center;
     opacity: 0.8;
-    left: 1033px;
+    right: 23%;
     top: 23px;
     transition: all 1.5s;
 
